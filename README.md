@@ -83,29 +83,6 @@ You only pay for what you use:
 
 Charged per second (not per hour like in the past).
 
-Extra charges for storage, network, data transfers.
-
-💰 Pricing Options
-1. On-Demand
-Pay as you go.
-
-No long-term commitment.
-
-Great for temporary, flexible workloads.
-
-2. Reserved Instances (RIs)
-Pay upfront (or partially) for 1–3 years.
-
-Cheaper than On-Demand if you're running servers 24/7.
-
-Ideal for always-on apps like websites.
-
-3. Spot Instances
-Super cheap (up to 90% off), but can be interrupted anytime.
-
-Best for:
-
-Big data processing
 
 Testing/development
 
