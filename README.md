@@ -106,6 +106,24 @@ Jobs that can handle sudden interruptions
 🧠 Real-Life Analogy
 EC2 Instance = A rented computer
 
+You choose the power (CPU, RAM), OS (Linux/Windows), and storage.🧠 Real-Life Analogy
+EC2 Instance = A rented computer
+
+You choose the power (CPU, RAM), OS (Linux/Windows), and storage.
+
+💸 Pricing Explained Simply
+You only pay for what you use:
+
+Charged per second (not per hour like in the past).
+
+
+Testing/development
+
+Jobs that can handle sudden interruptions
+
+🧠 Real-Life Analogy
+EC2 Instance = A rented computer
+
 You choose the power (CPU, RAM), OS (Linux/Windows), and storage.
 
 You can pause (stop) or delete it (terminate) anytime.
