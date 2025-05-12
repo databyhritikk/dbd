@@ -48,13 +48,7 @@ c5: compute-optimized family (good for CPU-heavy tasks)
 
 large: how powerful the instance is
 
-🔥 Instance Families (Categories):
-Family	Purpose	Example Use
-General	Balanced	Web servers, dev
-Compute-optimized	CPU-heavy	Gaming, ML, batch processing
-Memory-optimized	RAM-heavy	Databases, analytics
-Accelerated	GPU-heavy	Video rendering, 3D apps
-Storage-optimized	Fast local storage	NoSQL DBs, analytics
+
 
 🌐 Where Does an EC2 Instance Live?
 When you launch an instance:
