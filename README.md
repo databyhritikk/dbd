@@ -18,7 +18,7 @@ You choose an AMI when launching an EC2 instance.
 You can even make your own AMI and reuse it to launch other servers with the exact same setup—like making multiple cakes from the same recipe.
 
 🧩 What Makes Up an EC2 Instance?
-An EC2 instance is made up of:
+
 
 vCPU (virtual processor)
 
