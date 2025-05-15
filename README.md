@@ -28,13 +28,6 @@ Network capacity
 
 Storage
 
-Optional: GPU for graphics-heavy tasks
-
-You choose the right mix depending on your app needs.
-
-🏷️ What Is an Instance Type and Family?
-AWS offers different instance types—like phone models (iPhone 13, iPhone 13 Pro, etc.):
-
 Each instance type has:
 
 A family (based on purpose)
