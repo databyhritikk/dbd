@@ -20,7 +20,6 @@ You can even make your own AMI and reuse it to launch other servers with the exa
 🧩 What Makes Up an EC2 Instance?
 
 
-vCPU (virtual processor)
 
 Memory (RAM)
 
