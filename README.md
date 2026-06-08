@@ -1,118 +1,35 @@
-# Hidden
-💻 What is Amazon EC2 (Elastic Compute Cloud)?
-Think of EC2 as a virtual computer (server) you can rent from Amazon. You can use it to host websites, run apps, process data—whatever a real computer can do.
+# Spotify_Data_Pipe_Snowflake
 
-It's in the cloud, so no need to buy hardware.
+### Introduction
 
-You can choose how powerful it should be (CPU, RAM, etc.).
+In this Project created an ETL(Extract,Transform,Load) pipeline by using Spotify API on AWS cloud. The Project aims at using the playlist from Spotify API and transforming and storing cleaned data in AWS cloud storage and utilizing the data in snowflake using snowpipe.
 
-You pay only for how long you use it (like paying per minute/hour for a hotel room).
 
-🧱 What is an AMI (Amazon Machine Image)?
-An AMI is like a blueprint or recipe for your EC2 instance.
-
-It includes the operating system (Linux, Windows, etc.) and any software you want.
-
-You choose an AMI when launching an EC2 instance.
-
-You can even make your own AMI and reuse it to launch other servers with the exact same setup—like making multiple cakes from the same recipe.
-
-🧩 What Makes Up an EC2 Instance?
+### Architecture
+![Architecture Diagram](https://github.com/user-attachments/assets/4a6017ba-6d0d-4fa1-b25b-7aee0b99e600)
 
 
 
-Memory (RAM)
+### Services Used
+1. **AWS S3(Simple Storage Service):** AWS S3 is a highly saclable object storage service used for storing and retrieving any amount of data from anywhere using web. It is commonly used to store and distribute large files.
+   
+2. **AWS Lambda:** AWS Lambda is a serverless computing service that lets you run code without managing servers.
+   
+3. **Cloud Watch:** AWS Cloudwatch is a monitoring service for AWS Resources and the applications you run on them. It is used to collect and tracks metrics, collect and monitor log files and set alarms.
 
-Network capacity
+4. **AWS Data Catalog:** AWS Data Catalog is a centralized metadata repository for all your data assets across various data sources. 
 
-Storage
+5. **AWS GLue Crawler:**  AWS Data Catalog consists of AWS Glue Crawler which crawls the data sources and identifies data formats, infer schemas and create AWS Glue Data Catalog.
 
-Each instance type has:
+6. **AWS Athena:**  Amazon Athena is a interactive query service that makes it easy to analyze data stored in S3 using standard SQL. It is also used to analyze stored in Glue Data Catalog.
 
-A family (based on purpose)
+7.  **Snowflake:** Snowflake is a cloud-based data warehouse platform that allows users to store, analyze, and exchange data securely.
 
-A size (small, medium, large, etc.)
-
-Example:
-c5.large
-
-c5: compute-optimized family (good for CPU-heavy tasks)
-
-large: how powerful the instance is
+8. **PowerBI:** Power BI is a business analytics service by Microsoft that allows organizations to connect to various data sources, transform and clean data, create interactive visualizations, and share insights with others.
 
 
 
-🌐 Where Does an EC2 Instance Live?
-When you launch an instance:
-
-It's placed in a Virtual Private Cloud (VPC)—think of it as its own private network.
-
-It also sits in an Availability Zone (AZ)—a data center in a specific region.
-
-👉 Tip: Use at least 2 AZs for high availability (if one fails, the other works).
-
-🔁 EC2 Instance Lifecycle (How It Works)
-Pending – AWS is setting things up.
-
-Running – The instance is live, and you're getting billed.
-
-Reboot – Like restarting your laptop.
-
-Stop – Temporarily shut down (RAM is lost).
-
-Stop-Hibernate – Save RAM data so you can resume where you left off.
-
-Terminate – Shut down forever (data and IPs are gone).
-
-💸 Pricing Explained Simply
-You only pay for what you use:
-
-Charged per second (not per hour like in the past).
 
 
-Testing/development
-
-Jobs that can handle sudden interruptions
-
-🧠 Real-Life Analogy
-EC2 Instance = A rented computer
-
-You choose the power (CPU, RAM), OS (Linux/Windows), and storage.
-
-💸 Pricing Explained Simply
-You only pay for what you use:
-
-Charged per second (not per hour like in the past).
-
-
-Testing/development
-
-Jobs that can handle sudden interruptions
-
-🧠 Real-Life Analogy
-EC2 Instance = A rented computer
-
-You choose the power (CPU, RAM), OS (Linux/Windows), and storage.🧠 Real-Life Analogy
-EC2 Instance = A rented computer
-
-You choose the power (CPU, RAM), OS (Linux/Windows), and storage.
-
-💸 Pricing Explained Simply
-You only pay for what you use:
-
-Charged per second (not per hour like in the past).
-
-
-Testing/development
-
-Jobs that can handle sudden interruptions
-
-🧠 Real-Life Analogy
-EC2 Instance = A rented computer
-
-You choose the power (CPU, RAM), OS (Linux/Windows), and storage.
-
-You can pause (stop) or delete it (terminate) anytime.
-
-You can choose to pay more for uninterrupted usage or save money with flexible, riskier options like Spot.
-
+### Dashboard
+![Architecture Diagram](https://github.com/user-attachments/assets/e8b4d9e6-2fb9-4cd5-8212-2e38802198d7)
